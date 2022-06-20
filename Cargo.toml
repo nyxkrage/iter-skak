@@ -1,0 +1,12 @@
+[package]
+name = "iter-skak"
+version = "0.1.0"
+edition = "2021"
+license-file = "LICENSE"
+description = "Combines std::iter::Skip and std::iter::Take into one"
+repository = "https://github.com/NyxKrage/iter-skak"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
