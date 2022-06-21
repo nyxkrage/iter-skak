@@ -1,8 +1,8 @@
 [package]
 name = "iter-skak"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
-license-file = "LICENSE"
+license = "MIT"
 description = "Combines std::iter::Skip and std::iter::Take into one"
 repository = "https://github.com/NyxKrage/iter-skak"
 readme = "README.md"

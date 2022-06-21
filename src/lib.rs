@@ -142,13 +142,13 @@ where
 use std::{collections::VecDeque, fmt::Debug};
 
 #[derive(Clone, Copy, PartialEq, PartialOrd, Eq, Ord, Debug)]
-struct Skak<I> where
+pub struct Skak<I> where
 	I: Iterator,
 {
 	iter: I,
 }
 
-struct SkakTaken<T>
+pub struct SkakTaken<T>
 {
     items: VecDeque<T>,
 }
